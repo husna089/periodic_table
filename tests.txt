@@ -1,0 +1,22 @@
+Periodic Table Script Test Cases
+
+1. ./element.sh
+   Expected: Please provide an element as an argument.
+
+2. ./element.sh 1
+   Expected: Hydrogen (H)
+
+3. ./element.sh H
+   Expected: Hydrogen (H)
+
+4. ./element.sh Hydrogen
+   Expected: Hydrogen (H)
+
+5. ./element.sh 9
+   Expected: Fluorine (F)
+
+6. ./element.sh 10
+   Expected: Neon (Ne)
+
+7. ./element.sh 999
+   Expected: I could not find that element in the database.
